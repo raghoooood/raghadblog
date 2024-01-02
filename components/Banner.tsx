@@ -1,3 +1,4 @@
+'use client'
 import Image from 'next/image';
 import Slider from 'react-slick';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'; // Make sure these are imported properly
@@ -6,6 +7,7 @@ import bannerImgTwo from "../public/images/bannerImgTwo.jpg";
 import bannerImgThree from "../public/images/bannerImgThree.jpg";
 import bannerImgFour from "../public/images/bannerImgFour.jpg";
 import React from 'react';
+
 const SampleNextArrow:React.FC<any> = ({ onClick }) => (
    
         <div
